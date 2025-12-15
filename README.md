@@ -206,14 +206,6 @@ schedule:
 - **智谱 AI**: `glm-4v`
 - **ModelScope**: 各种开源视觉模型
 
-### 重试次数
-
-修改 `debug_sakura.py` 中的重试次数：
-
-```python
-self.max_retries = 3  # 最大重试次数
-```
-
 ## 故障排查
 
 ### 问题：验证码识别失败
